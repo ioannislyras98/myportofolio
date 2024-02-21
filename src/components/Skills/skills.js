@@ -1,5 +1,6 @@
 import React from "react";
 import './skills.css';
+import BC from '../../assets/BC.png';
 
 const Skills = () => {
     return (
@@ -15,10 +16,10 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className="skillbar">
-                    <img src="" alt="" className="skillBarImg"/>
+                    <img src={BC} alt="BC" className="skillBarImg"/>
                     <div className="skillBarText">
-                        <h2></h2>
-                        <p></p>
+                        <h2>BC Developer</h2>
+                        <p>I create apps for customer's BC enviroments</p>
                     </div>
                 </div>
                 <div className="skillbar">
@@ -32,3 +33,4 @@ const Skills = () => {
         </section>    
     )
 }
+export default Skills;
